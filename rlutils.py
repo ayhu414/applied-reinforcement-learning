@@ -4,7 +4,7 @@ from tqdm import tqdm
 import pandas as pd
 import numpy as np
 
-state_cols = ['cart_position', 'cart_velocity', 'pole_angle', 'pole_velocity']
+state_cols = [str(i) for i in range(453)]
 
 
 def enact_policy(env, agent):
