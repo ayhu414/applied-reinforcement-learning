@@ -4,7 +4,7 @@ from tqdm import tqdm
 import pandas as pd
 import numpy as np
 
-state_cols = [str(i) for i in range(453)]
+state_cols = [str(i) for i in range(128)]
 
 
 def enact_policy(env, agent):
